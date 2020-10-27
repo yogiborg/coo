@@ -1,0 +1,113 @@
+html {
+    background-color:powderblue;
+    margin: 20px;
+    border: groove; 
+    background-image: url("raisin.png");
+    z-index: -1; 
+    max-height:inherit;
+    max-width:inherit;
+    min-height:inherit;
+    min-width:inherit;
+}
+
+#title {
+    font-family: 'Archivo Black', sans-serif;
+    font-size:25px;
+    letter-spacing:1px;
+    color:chocolate;
+    text-align: center;
+    padding:10px;
+    border: solid; 
+    border-radius: 25px;
+    background-color:lavenderblush;
+    cursor: url(harlem.jpg), pointer;
+}
+
+a:link {
+    color: chocolate; 
+    text-decoration: none;
+}
+a:visited {
+    color: chocolate;
+    text-decoration: none;
+}
+
+a:hover {
+    color: firebrick;
+}
+
+a:active {
+    color:lavender; 
+}
+
+a:hover {
+    background-color: lavender;
+}
+
+#lineone {
+    font-family: 'Lora', serif;
+    font-size:14px;
+    font-weight:600;
+    letter-spacing:.1px;
+    color:firebrick;
+    line-height:50px;
+    text-align:left;
+    margin-left: 470px;
+    padding:5px;
+    z-index:1;
+}
+
+#parttwo {
+    font-family: 'Lora', serif;
+    font-size:14px;
+    color:maroon;
+    line-height:15px;
+    text-align:left;
+    margin-left: 510px;
+    padding:5px;
+    z-index:1;
+}
+
+#author {
+    font-family: 'Archivo Black', sans-serif;
+    font-size:25px;
+    letter-spacing:.5px;
+    color:chocolate;
+    text-align:center;
+    padding:20px;
+    border: double; 
+    border-radius: 50px;
+    background-color:lavender;
+    cursor: url(lang.jpg), auto;
+}
+
+::selection {
+  color: red;
+  background: yellow;
+}
+
+.element {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  background-color: red;
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+animation-iteration-count: infinite;
+}
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    background-color: red;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: orange;
+      border-radius: 100%;
+  }
+  100% {
+    transform: scale(1);
+    background-color: yellow;
+      border-radius: 100%;
+  }
+}
